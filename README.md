@@ -62,3 +62,7 @@ Repositori ini berisi implementasi dan evaluasi komparatif enam arsitektur model
 6. DDPM / Mini U-Net (28x28, T=200):
    - Train Time: 15.17 s/epoch | Latency (batch 64): 727.22 ms (~11.36 ms/citra; 534.7x lebih lambat dari DCGAN & 7272.2x lebih lambat dari VAE) | FID: 91.54
    - Loss (Noise MSE): paling stabil, turun monoton 0.15752 -> 0.07988 (min 0.07898 di epoch 24)
+
+## Statement Penggunaan AI
+- Membantu pembuatan laporan, terutama di bagian rumus dan perhitungan, serta membantu dalam pembentukan laporan dalam format latex
+- Membantu pembuatan code, terutama pada syntax. Ide tetap dari saya.
