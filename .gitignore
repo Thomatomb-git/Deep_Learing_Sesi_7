@@ -1,0 +1,32 @@
+# === LaTeX Build Artifacts (Sisakan hanya .tex dan .pdf) ===
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+# === Python & Virtual Environment ===
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# === Dataset & Model Checkpoints Berat ===
+data/
+outputs/checkpoints/*.pt
+outputs/checkpoints/*.pth
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
